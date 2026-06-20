@@ -16,12 +16,12 @@ Analizar los datos históricos del Titanic para comprender qué variables tuvier
 
 ## Objetivos Específicos
 
-- Explorar la estructura y calidad de los datos.
-- Identificar valores nulos e inconsistencias.
-- Realizar análisis estadístico descriptivo.
-- Visualizar patrones relevantes mediante gráficos.
-- Generar conclusiones basadas en evidencia.
-- Aplicar buenas prácticas de control de versiones con Git y GitHub.
+* Explorar la estructura y calidad de los datos.
+* Identificar valores nulos e inconsistencias.
+* Realizar análisis estadístico descriptivo.
+* Visualizar patrones relevantes mediante gráficos.
+* Generar conclusiones basadas en evidencia.
+* Aplicar buenas prácticas de control de versiones con Git y GitHub.
 
 ---
 
@@ -33,20 +33,20 @@ Contiene información de 891 pasajeros y 12 variables asociadas a característic
 
 ### Variables principales
 
-| Variable | Descripción |
-|-----------|------------|
-| PassengerId | Identificador del pasajero |
-| Survived | Supervivencia (0 = No, 1 = Sí) |
-| Pclass | Clase del pasajero |
-| Name | Nombre |
-| Sex | Sexo |
-| Age | Edad |
-| SibSp | Hermanos/Cónyuges a bordo |
-| Parch | Padres/Hijos a bordo |
-| Ticket | Número de ticket |
-| Fare | Tarifa pagada |
-| Cabin | Cabina |
-| Embarked | Puerto de embarque |
+| Variable    | Descripción                    |
+| ----------- | ------------------------------ |
+| PassengerId | Identificador del pasajero     |
+| Survived    | Supervivencia (0 = No, 1 = Sí) |
+| Pclass      | Clase del pasajero             |
+| Name        | Nombre                         |
+| Sex         | Sexo                           |
+| Age         | Edad                           |
+| SibSp       | Hermanos/Cónyuges a bordo      |
+| Parch       | Padres/Hijos a bordo           |
+| Ticket      | Número de ticket               |
+| Fare        | Tarifa pagada                  |
+| Cabin       | Cabina                         |
+| Embarked    | Puerto de embarque             |
 
 ---
 
@@ -72,39 +72,69 @@ PROYECTO TITANIC
 ├── src
 │
 ├── requirements.txt
+│
 └── README.md
+```
 
-Herramientas Utilizadas
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook
-Git
-GitHub
-Visual Studio Code
-Metodología de Trabajo
-Fase 1: Definición
-Comprensión del problema.
-Identificación de variables.
-Carga inicial del dataset.
-Revisión de estructura y dimensiones.
-Fase 2: Exploración de Datos (EDA)
-Estadísticas descriptivas.
-Detección de valores nulos.
-Distribuciones de variables.
-Visualización de relaciones relevantes.
-Fase 3: Preparación de Datos
-Limpieza de datos.
-Tratamiento de valores faltantes.
-Transformación de variables.
-Generación de dataset preparado para modelado.
-Resultados Esperados
-Identificar patrones asociados a la supervivencia.
-Comprender la influencia del sexo, edad y clase social.
-Aplicar técnicas estadísticas y visuales para la toma de decisiones basada en datos.
-Autor
+---
 
-Claudio Alarcón Pradenas
+## Herramientas Utilizadas
 
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* Git
+* GitHub
+* Visual Studio Code
+
+---
+
+## Metodología de Trabajo
+
+### Fase 1: Definición
+
+* Comprensión del problema.
+* Identificación de variables.
+* Carga inicial del dataset.
+* Revisión de estructura y dimensiones.
+
+### Fase 2: Exploración de Datos (EDA)
+
+* Estadísticas descriptivas.
+* Detección de valores nulos.
+* Distribuciones de variables.
+* Visualización de relaciones relevantes.
+
+### Fase 3: Preparación de Datos
+
+* Limpieza de datos.
+* Tratamiento de valores faltantes.
+* Transformación de variables.
+* Generación de dataset preparado para modelado.
+
+---
+
+## Resultados Esperados
+
+* Identificar patrones asociados a la supervivencia.
+* Comprender la influencia del sexo, edad y clase social.
+* Aplicar técnicas estadísticas y visuales para la toma de decisiones basada en datos.
+
+---
+
+## Autor
+
+**Claudio Alarcón Pradenas**
+
+Ingeniero Industrial
+Magíster en Ciencia de Datos e Inteligencia Artificial
+Universidad Andrés Bello
+
+---
+
+## Fecha
+
+Junio 2026
